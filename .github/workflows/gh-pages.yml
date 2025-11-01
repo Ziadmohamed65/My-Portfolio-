@@ -14,8 +14,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive   # fetch theme submodules (like Blowfish)
-          fetch-depth: 0          # ensure .GitInfo and .Lastmod work
+          submodules: recursive   # fetch theme submodules (e.g., Blowfish)
+          fetch-depth: 0
 
       # Step 2: Setup Hugo
       - name: Setup Hugo
