@@ -3,27 +3,32 @@ name: Build and deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main   # deploy whenever you push to the main branch
+      - main   # Deploy whenever you push to the main branch
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
+      # Step 1: Checkout repository including submodules
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: true    # include Hugo themes added as submodules
-          fetch-depth: 0      # recommended for full history
+          submodules: recursive   # fetch theme submodules (e.g., Blowfish)
+          fetch-depth: 0          # ensure full history (needed for .GitInfo)
 
+      # Step 2: Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
           hugo-version: 'latest'
+          extended: true          # required for SCSS in Blowfish
 
+      # Step 3: Build the Hugo site
       - name: Build site
         run: hugo --minify
 
+      # Step 4: Deploy the site to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
