@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Projects on Home</title><link>https://example.org/projects/</link><description>Recent content in Projects on Home</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>youremail@example.com (Ziad Mohamed)</managingEditor><webMaster>youremail@example.com (Ziad Mohamed)</webMaster><copyright>© 2025 Ziad Mohamed</copyright><lastBuildDate>Sun, 19 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://example.org/projects/index.xml" rel="self" type="application/rss+xml"/></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Home</title>
+    <link>http://localhost:1313/My-Portfolio-/projects/</link>
+    <description>Recent content on Home</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>youremail@example.com (Ziad Mohamed)</managingEditor>
+    <webMaster>youremail@example.com (Ziad Mohamed)</webMaster>
+    <copyright>© 2025 Ziad Mohamed</copyright>
+    <atom:link href="http://localhost:1313/My-Portfolio-/projects/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Project A</title>
+      <link>http://localhost:1313/My-Portfolio-/projects/project2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Ziad Mohamed)</author>
+      <guid>http://localhost:1313/My-Portfolio-/projects/project2/</guid>
+      <description>A short description of Project A.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/projects/project2/featured.png" />
+    </item>
+    
+    <item>
+      <title>Project1</title>
+      <link>http://localhost:1313/My-Portfolio-/projects/project1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>youremail@example.com (Ziad Mohamed)</author>
+      <guid>http://localhost:1313/My-Portfolio-/projects/project1/</guid>
+      <description>A short description of Project A.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/projects/project1/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -10,23 +10,26 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
-[[main]]
-  name = "Certifications"
- pageRef = "Certifications"
-  weight = 10
 
 [[main]]
-  name = "Projects"
- pageRef = "Projects"
-  weight = 10
-#[[main]]
-#  name = "Parent"
-#  weight = 20
+name = "Projects"
+pageRef = "posts"
+ weight = 10
+
+[[main]]
+name = "Certifications"
+pageRef = "Certifications"
+ weight = 10
 
 #[[main]]
-#  name = "example sub-menu 1"
-#  parent = "Parent"
-#  pageRef = "posts"
+# name = "Home"
+#pageRef = "content"
+# weight = 20
+
+#[[main]]
+# name = "example sub-menu 1"
+# parent = "Parent"
+# pageRef = "Projects"
 #  weight = 20
 
 #[[main]]
