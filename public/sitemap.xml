@@ -4,13 +4,19 @@
 
   <url>
     <loc>http://localhost:1313/My-Portfolio-/</loc>
-    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>http://localhost:1313/My-Portfolio-/posts/</loc>
-    <lastmod>2025-11-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/</loc>
+    <lastmod>2025-11-17T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
