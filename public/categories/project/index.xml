@@ -18,7 +18,7 @@
       <author>youremail@example.com (Ziad Mohamed)</author>
       <guid>http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/</guid>
       <description></description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/featured%20.jpg" />
     </item>
     
     <item>
