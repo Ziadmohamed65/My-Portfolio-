@@ -3,7 +3,7 @@ name: Build and Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - main   # Trigger deployment on push to main
+      - main   # Trigger deployment when pushing to main
 
 jobs:
   build-and-deploy:
@@ -24,17 +24,38 @@ jobs:
           hugo-version: '0.141.0'   # match Blowfish theme requirement
           extended: true
 
-      # Step 3: Build Hugo site
+      # Step 3: Increment favicon version to bypass caching
+      - name: Rename favicon
+        run: |
+          if [ -f "static/favicon.ico" ]; then
+            TIMESTAMP=$(date +%s)
+            FAVICON_NEW="favicon_$TIMESTAMP.ico"
+            mv static/favicon.ico static/$FAVICON_NEW
+            echo "FAVICON_NAME=$FAVICON_NEW" >> $GITHUB_ENV
+          fi
+
+      # Step 4: Update config.toml to use the new favicon
+      - name: Update config.toml favicon
+        run: |
+          if [ -f "config.toml" ] && [ -n "$FAVICON_NAME" ]; then
+            sed -i "s|favicon = \".*\"|favicon = \"$FAVICON_NAME\"|" config.toml
+          fi
+
+      # Step 5: Build Hugo site
       - name: Build Hugo site
         run: hugo --cleanDestinationDir --minify
 
-      # Step 4: Deploy to GitHub Pages
+      # Step 6: Debug - list public folder
+      - name: List public folder
+        run: ls -R ./public
+
+      # Step 7: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          force_orphan: true             # 🔹 Overwrites gh-pages branch completely
+          publish_branch: gh-pages       # ensures deployment goes to gh-pages
+          force_orphan: true             # overwrite the branch completely
           commit_message: "Automated Hugo build and deploy"
-          # cname: yourdomain.com       # Uncomment if you use a custom domain
-
+          # cname: yourdomain.com        # uncomment if using custom domain
