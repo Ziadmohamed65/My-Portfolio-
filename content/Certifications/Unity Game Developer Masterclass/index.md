@@ -1,7 +1,7 @@
 ---
 title: "Unity Game Developer Masterclass"
 date: 2022-06-30
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

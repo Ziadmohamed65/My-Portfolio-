@@ -1,7 +1,7 @@
 ---
 title: "Python for beginners"
 date: 2021-07-05
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

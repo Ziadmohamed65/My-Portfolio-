@@ -1,7 +1,7 @@
 ---
 title: "Visual Effects for Games in Unity"
 date: 2023-10-02
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

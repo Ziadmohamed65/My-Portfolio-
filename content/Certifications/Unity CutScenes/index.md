@@ -1,7 +1,7 @@
 ---
 title: "Unity Cutscenes: Master Cinematics, Animation and Trailers"
 date: 2025-10-10
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

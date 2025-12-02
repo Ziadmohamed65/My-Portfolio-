@@ -1,7 +1,7 @@
 ---
 title: "C# for beginners"
 date: 2023-10-05
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

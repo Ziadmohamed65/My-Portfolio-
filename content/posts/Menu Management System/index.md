@@ -1,7 +1,7 @@
 ---
 title: "Menu Management System in Unity"
 date: 2025-11-22
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Project"]
 tags: ["Project"]

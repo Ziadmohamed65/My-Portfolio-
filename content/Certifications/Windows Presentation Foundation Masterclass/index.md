@@ -1,7 +1,7 @@
 ---
 title: "Windows Presentation Foundation Masterclass"
 date: 2025-08-13
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

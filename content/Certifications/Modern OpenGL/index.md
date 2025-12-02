@@ -1,7 +1,7 @@
 ---
 title: "Modern OpenGL"
 date: 2025-09-28
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

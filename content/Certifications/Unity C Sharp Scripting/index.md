@@ -1,7 +1,7 @@
 ---
 title: "Unity C# Scripting"
 date: 2022-02-21
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

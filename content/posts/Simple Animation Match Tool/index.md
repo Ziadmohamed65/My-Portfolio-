@@ -1,7 +1,7 @@
 ---
 title: "Simple Animation Match Tool"
 date: 2025-11-17
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Project"]
 tags: ["Project"]

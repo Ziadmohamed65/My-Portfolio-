@@ -1,7 +1,7 @@
 ---
 title: "Blender Animation & Rigging"
 date: 2024-12-25
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

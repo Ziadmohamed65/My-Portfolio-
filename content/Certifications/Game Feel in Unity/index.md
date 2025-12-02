@@ -1,7 +1,7 @@
 ---
 title: "Game Feel in Unity"
 date: 2024-07-29
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

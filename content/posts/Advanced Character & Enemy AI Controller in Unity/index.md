@@ -1,7 +1,7 @@
 ---
 title: "Advanced Character & Enemy AI Controller in Unity"
 date: 2025-11-01
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Project"]
 tags: ["Project"]

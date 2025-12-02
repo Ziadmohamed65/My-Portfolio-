@@ -1,7 +1,7 @@
 ---
 title: "Programming Design Patterms for Unity"
 date: 2025-09-30
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]

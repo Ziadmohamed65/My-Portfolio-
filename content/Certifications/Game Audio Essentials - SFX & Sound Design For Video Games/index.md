@@ -1,7 +1,7 @@
 ---
 title: "Game Audio Essentials: SFX & Sound Design For Video Games"
 date: 2025-11-18
-showAuthor: TRUE
+showAuthor: FALSE
 showAuthorsBadges : false 
 categories: ["Certifications"]
 tags: ["Certifications"]
