@@ -3,7 +3,7 @@ name: Build and deploy Hugo site to GitHub Pages
 on:
   push:
     branches:
-      - main   # Automatically deploy when pushing to main
+      - main   # Trigger deployment on push to main
 
 jobs:
   build:
@@ -14,25 +14,27 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          submodules: recursive   # fetch theme submodules (e.g., Blowfish)
+          submodules: recursive
           fetch-depth: 0
 
       # Step 2: Setup Hugo
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: 'latest'
-          extended: true          # required for themes using SCSS
+          hugo-version: '0.141.0'   # match your theme requirement
+          extended: true
 
       # Step 3: Build the Hugo site
       - name: Build site
-        run: hugo --minify
+        run: hugo --cleanDestinationDir --minify
 
       # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public   # folder Hugo builds into by default
-          # Optional but recommended:
-          cname: yourdomain.com   # only if you use a custom domain
+          publish_dir: ./public
+          force_orphan: true       # 🔹 forces overwrite of gh-pages branch
+          commit_message: "Automated Hugo build and deploy"
+          # cname: yourdomain.com   # uncomment if you have a custom domain
+
