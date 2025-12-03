@@ -12,7 +12,7 @@ tags: ["Certifications"]
 
 ### **Course Description**
 
-## 🎵 Game Audio Design Mastery: Crafting Signature Soundscapes
+## 🎵 Game Audio Design Mastery: Crafting Signature Soundscapes.
 
 This comprehensive program is designed for game developers seeking to elevate the auditory experience of their projects beyond generic sound libraries. It offers a practical adventure into foley and audio processing, enabling participants to imbue their games with unique and professional-quality sound effects.
 
