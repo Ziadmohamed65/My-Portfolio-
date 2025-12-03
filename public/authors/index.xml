@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Home</title>
-    <link>https://ziadmohamed65.github.io/My-Portfolio-/authors/</link>
+    <link>http://localhost:1313/My-Portfolio-/authors/</link>
     <description>Recent content in Authors on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Ziad Mohamed)</managingEditor>
     <webMaster>youremail@example.com (Ziad Mohamed)</webMaster>
     <copyright>© 2025 Ziad Mohamed</copyright>
-    <atom:link href="https://ziadmohamed65.github.io/My-Portfolio-/authors/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/My-Portfolio-/authors/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>
