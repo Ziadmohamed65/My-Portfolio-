@@ -1,61 +1,39 @@
-name: Build and Deploy Hugo Site to GitHub Pages
+name: Deploy Hugo to gh-pages
 
 on:
   push:
     branches:
-      - main   # Trigger deployment when pushing to main
+      - main
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout repository including submodules (themes)
+      # 1. Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
-      # Step 2: Setup Hugo
-      - name: Setup Hugo
+      # 2. Install Hugo (you can change version if needed)
+      - name: Install Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.141.0'   # match Blowfish theme requirement
+          hugo-version: '0.141.0'
           extended: true
 
-      # Step 3: Increment favicon version to bypass caching
-      - name: Rename favicon
-        run: |
-          if [ -f "static/favicon.ico" ]; then
-            TIMESTAMP=$(date +%s)
-            FAVICON_NEW="favicon_$TIMESTAMP.ico"
-            mv static/favicon.ico static/$FAVICON_NEW
-            echo "FAVICON_NAME=$FAVICON_NEW" >> $GITHUB_ENV
-          fi
-
-      # Step 4: Update config.toml to use the new favicon
-      - name: Update config.toml favicon
-        run: |
-          if [ -f "config.toml" ] && [ -n "$FAVICON_NAME" ]; then
-            sed -i "s|favicon = \".*\"|favicon = \"$FAVICON_NAME\"|" config.toml
-          fi
-
-      # Step 5: Build Hugo site
+      # 3. Build the site
       - name: Build Hugo site
         run: hugo --cleanDestinationDir --minify
 
-      # Step 6: Debug - list public folder
-      - name: List public folder
-        run: ls -R ./public
-
-      # Step 7: Deploy to GitHub Pages
-      - name: Deploy to GitHub Pages
+      # 4. Deploy /public to gh-pages branch
+      - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
-          publish_branch: gh-pages       # ensures deployment goes to gh-pages
-          force_orphan: true             # overwrite the branch completely
-          commit_message: "Automated Hugo build and deploy"
-          # cname: yourdomain.com        # uncomment if using custom domain
+          publish_branch: gh-pages
+          force_orphan: true
+          commit_message: "Update site from GitHub Actions"
