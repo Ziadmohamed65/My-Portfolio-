@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>http://localhost:1313/My-Portfolio-/posts/</link>
+    <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Ziad Mohamed)</managingEditor>
     <webMaster>youremail@example.com (Ziad Mohamed)</webMaster>
     <copyright>© 2025 Ziad Mohamed</copyright>
-    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/My-Portfolio-/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Nov 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://ziadmohamed65.github.io/My-Portfolio-/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Menu Management System in Unity</title>
-      <link>http://localhost:1313/My-Portfolio-/posts/menu-management-system/</link>
+      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/menu-management-system/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>http://localhost:1313/My-Portfolio-/posts/menu-management-system/</guid>
+      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/menu-management-system/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/menu-management-system/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/menu-management-system/featured.jpg" />
     </item>
     
     <item>
       <title>Simple Animation Match Tool</title>
-      <link>http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/</link>
+      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/simple-animation-match-tool/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/</guid>
+      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/simple-animation-match-tool/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/featured%20.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/simple-animation-match-tool/featured%20.jpg" />
     </item>
     
     <item>
       <title>Advanced Character &amp; Enemy AI Controller in Unity</title>
-      <link>http://localhost:1313/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</link>
+      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>http://localhost:1313/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</guid>
+      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/featured.png" />
     </item>
     
   </channel>
