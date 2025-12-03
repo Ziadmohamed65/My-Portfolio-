@@ -1,5 +1,5 @@
 ---
-title: "Advanced Character & Enemy AI Controller in Unity"
+title: "Advanced Character & Enemyb AI Controller in Unity"
 date: 2025-11-01
 showAuthor: FALSE
 showAuthorsBadges : false 
