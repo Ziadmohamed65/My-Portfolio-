@@ -4,7 +4,19 @@
 
   <url>
     <loc>https://ziadmohamed65.github.io/My-Portfolio-/</loc>
-    <lastmod>2026-02-02T00:00:00+00:00</lastmod>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ziadmohamed65.github.io/My-Portfolio-/posts/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://ziadmohamed65.github.io/My-Portfolio-/posts/vfx-gallery/</loc>
+    <lastmod>2026-04-01T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,12 +29,6 @@
   <url>
     <loc>https://ziadmohamed65.github.io/My-Portfolio-/certifications/</loc>
     <lastmod>2026-02-02T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://ziadmohamed65.github.io/My-Portfolio-/posts/</loc>
-    <lastmod>2025-11-22T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
