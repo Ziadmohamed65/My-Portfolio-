@@ -2,63 +2,63 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home</title>
-    <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/</link>
+    <link>http://localhost:1313/My-Portfolio-/posts/</link>
     <description>Recent content on Home</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>youremail@example.com (Ziad Mohamed)</managingEditor>
     <webMaster>youremail@example.com (Ziad Mohamed)</webMaster>
     <copyright>© 2026 Ziad Mohamed</copyright>
-    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://ziadmohamed65.github.io/My-Portfolio-/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 01 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/My-Portfolio-/posts/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>VFX Gallery</title>
-      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/vfx-gallery/</link>
+      <link>http://localhost:1313/My-Portfolio-/posts/vfx-gallery/</link>
       <pubDate>Wed, 01 Apr 2026 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/vfx-gallery/</guid>
+      <guid>http://localhost:1313/My-Portfolio-/posts/vfx-gallery/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/vfx-gallery/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/vfx-gallery/featured.jpg" />
     </item>
     
     <item>
       <title>Menu Management System in Unity</title>
-      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/menu-management-system/</link>
+      <link>http://localhost:1313/My-Portfolio-/posts/menu-management-system/</link>
       <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/menu-management-system/</guid>
+      <guid>http://localhost:1313/My-Portfolio-/posts/menu-management-system/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/menu-management-system/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/menu-management-system/featured.jpg" />
     </item>
     
     <item>
       <title>Simple Animation Match Tool</title>
-      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/simple-animation-match-tool/</link>
+      <link>http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/</link>
       <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/simple-animation-match-tool/</guid>
+      <guid>http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/simple-animation-match-tool/featured%20.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/simple-animation-match-tool/featured%20.jpg" />
     </item>
     
     <item>
       <title>Advanced Character &amp; Enemy AI Controller in Unity</title>
-      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</link>
+      <link>http://localhost:1313/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</link>
       <pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</guid>
+      <guid>http://localhost:1313/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/advanced-character--enemy-ai-controller-in-unity/featured.png" />
     </item>
     
     <item>
       <title>The Delivery Guy</title>
-      <link>https://ziadmohamed65.github.io/My-Portfolio-/posts/the-delivery-guy/</link>
+      <link>http://localhost:1313/My-Portfolio-/posts/the-delivery-guy/</link>
       <pubDate>Sat, 15 Jun 2024 00:00:00 +0000</pubDate>
       <author>youremail@example.com (Ziad Mohamed)</author>
-      <guid>https://ziadmohamed65.github.io/My-Portfolio-/posts/the-delivery-guy/</guid>
+      <guid>http://localhost:1313/My-Portfolio-/posts/the-delivery-guy/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://ziadmohamed65.github.io/My-Portfolio-/posts/the-delivery-guy/featured%20.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/My-Portfolio-/posts/the-delivery-guy/featured%20.png" />
     </item>
     
   </channel>
